@@ -23,21 +23,21 @@ def tablodaki_verileri_okuma():
         print(i,j,k,l,m )
 
 
-#while True:
-#   isim=input("Calisanin ismini giriniz yada Eger Çıkış yapmak istiyorsanız q ya basiniz")
-#    
-#    if isim=='q':
-#        print("\nÇıkış işleminiz başarıyla gerçekleşti...")
-#        time.sleep(1)
-#        break
-#    else:
-#        soyisim=input("\nCalisanin soyismi:")
-#        yas=int(input("\nCalisanin yasi:"))
-#        dept=input("\nCalisanin depertmani:")
-#        maas=int(input("\nCalisanin maasi:"))
-#        klavyeden_veri_alinarak_ekleme(isim,soyisim,yas,dept,maas)
-#        print("\nTabloya ekleme yapiliyor...\n")
-#        time.sleep(1)    
+while True:
+   isim=input("Calisanin ismini giriniz yada Eger Çıkış yapmak istiyorsanız q ya basiniz")
+    
+    if isim=='q':
+        print("\nÇıkış işleminiz başarıyla gerçekleşti...")
+        time.sleep(1)
+        break
+    else:
+        soyisim=input("\nCalisanin soyismi:")
+        yas=int(input("\nCalisanin yasi:"))
+        dept=input("\nCalisanin depertmani:")
+        maas=int(input("\nCalisanin maasi:"))
+        klavyeden_veri_alinarak_ekleme(isim,soyisim,yas,dept,maas)
+        print("\nTabloya ekleme yapiliyor...\n")
+        time.sleep(1)    
 
 
 
