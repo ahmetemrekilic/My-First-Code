@@ -23,7 +23,10 @@ class Anime1(Anime):
 
     def __str__(self):
         return ("Anime name:{}\nAnime episode:{}\nAnime starting_date:{}\nAnime type:{}\n".format(self.name,self.episode,self.starting_date,self.type))
-
+    
+    def __len__(self):
+        return self.episode
+    
     def add_episode(self,ep):
         print("Episode uploading..")
         time.sleep(2)
@@ -41,7 +44,7 @@ anime1.show_anime_information()
 anime2.add_episode(65)
 anime2.add_type("Supernatural")
 anime2.show_anime_information()
-
+print("Anime episode len:",len(anime2))
 #YOU CAN ADD NEW OBJECT
 #YOU CAN ADD İNFORMATİON WITH FUNCTIONS
 
